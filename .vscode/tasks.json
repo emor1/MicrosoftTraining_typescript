@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "tasktest",
+			"type": "shell",
+			"command":"tsc"
+			// "type": "typescript",
+			// "tsconfig": "tsconfig.json",
+			// "problemMatcher": [
+			// 	"$tsc"
+			// ],
+			// "group": "build",
+			// "label": "tsc: build - tsconfig.json"
+		}
+	]
+}
