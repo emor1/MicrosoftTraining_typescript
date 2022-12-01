@@ -17,4 +17,8 @@
   * クラスの全てのインスタンスで共有されるプロパティやメソッド
   * `static`を付けることで静的にできる
 
-続き：https://learn.microsoft.com/ja-jp/training/modules/typescript-generics/
+### module6: ジェネリック
+* ジェネリック
+  * コードベースで定義して再利用できるコードテンプレート
+  * これを使うことで、使用する型を支持することができる
+  * 'function funcName<T>(input: T): T{': こんな感じで描く
