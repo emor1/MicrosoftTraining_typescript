@@ -18,5 +18,18 @@ stringArray.push('Rabbit');
 console.log(numberArray);
 console.log(stringArray);
 let numberArray2 = getArray([5, 10, 15, 20]);
+// こんな感じで型を指定することもできる
 numberArray2.push(25);
-numberArray2.push('This is not a number');
+// numberArray2.push('This is not a number');
+// エラー
+function identity(value, message) {
+    console.log(message);
+    return value;
+}
+let returnNumber = identity(100, 'Hello!');
+let returnString = identity('100', 'Hola!');
+let returnBoolean = identity(true, 'Bonjour!');
+returnNumber = returnNumber * 100;
+// returnString = returnString * 100;
+// returnBoolean = returnBoolean * 100;
+// 上二つはエラー
